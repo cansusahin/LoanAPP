@@ -58,7 +58,7 @@ SpringDoc OpenAPI (for API documentation with Swagger UI)
 *Application is running on http://localhost:8081/. Port is defined in application.yaml.*
 server.port: 8081
 
-## **#User Roles#**
+## **User Roles**
 
 -ADMIN
 -CUSTOMER
