@@ -100,6 +100,7 @@
 ## **Run The Application**
 
  ./mvnw spring-boot:run
+
 *Application is running on http://localhost:8081/. Port is defined in application.yaml.*
 server.port: 8081
 
