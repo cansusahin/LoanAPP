@@ -91,6 +91,7 @@ spring:
     defer-datasource-initialization: true
 
 <img width="336" alt="Screenshot 2025-05-13 at 12 30 13" src="https://github.com/user-attachments/assets/e16bff94-1137-4c69-9793-65f005f7bd44" />
+
 <img width="327" alt="Screenshot 2025-05-13 at 12 30 27" src="https://github.com/user-attachments/assets/2aed5586-1d98-406a-86fe-f933c8a21ce5" />
 
 ## **Swagger**
