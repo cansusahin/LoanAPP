@@ -105,8 +105,8 @@ server.port: 8081
 
 ## **User Roles**
 
--ADMIN
--CUSTOMER
+- ADMIN
+- CUSTOMER
 
 ## **Test users**
 
