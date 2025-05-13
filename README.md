@@ -6,17 +6,17 @@
 
 1. Core Framework
    
-Spring Boot:
+- Spring Boot:
 
-spring-boot-starter-parent (version 3.4.5)
+-- spring-boot-starter-parent (version 3.4.5)
 
-spring-boot (version 3.4.5)
+-- spring-boot (version 3.4.5)
 
-spring-boot-starter-web (for web development with Spring MVC)
+-- spring-boot-starter-web (for web development with Spring MVC)
 
-spring-boot-starter-data-jpa (for JPA support)
+-- spring-boot-starter-data-jpa (for JPA support)
 
-spring-boot-starter-validation (for validation support)
+-- spring-boot-starter-validation (for validation support)
 
 3. Testing Frameworks
    
