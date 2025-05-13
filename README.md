@@ -73,7 +73,8 @@ server.port: 8081
 
 You can access h2 database from http://localhost:8081/h2-console. Database username is loanAdmin and password loan2025*. Initial customer and user info is added as sql script. It will be loaded while running the app.
 
-*Configuration in application.yaml*
+*Configuration in application.yaml:*
+
 spring:
   h2:
     console:
