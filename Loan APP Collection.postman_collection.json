@@ -1,0 +1,388 @@
+{
+	"info": {
+		"_postman_id": "18fa0d33-9c4c-4769-84e6-cd036fd70947",
+		"name": "Loan APP Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "848973"
+	},
+	"item": [
+		{
+			"name": "loan",
+			"item": [
+				{
+					"name": "create Loan",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/loan/create?customerId=<long>&amount=<number>&interestRate=<number>&numberOfInstallments=<integer>",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"loan",
+								"create"
+							],
+							"query": [
+								{
+									"key": "customerId",
+									"value": "<long>",
+									"description": "(Required) "
+								},
+								{
+									"key": "amount",
+									"value": "<number>",
+									"description": "(Required) "
+								},
+								{
+									"key": "interestRate",
+									"value": "<number>",
+									"description": "(Required) "
+								},
+								{
+									"key": "numberOfInstallments",
+									"value": "<integer>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/loan/create?customerId=<long>&amount=<number>&interestRate=<number>&numberOfInstallments=<integer>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"loan",
+										"create"
+									],
+									"query": [
+										{
+											"key": "customerId",
+											"value": "<long>"
+										},
+										{
+											"key": "amount",
+											"value": "<number>"
+										},
+										{
+											"key": "interestRate",
+											"value": "<number>"
+										},
+										{
+											"key": "numberOfInstallments",
+											"value": "<integer>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": "<object>"
+						}
+					]
+				},
+				{
+					"name": "list Loans",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/loan/list?customerId=<long>&isPaid=<boolean>",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"loan",
+								"list"
+							],
+							"query": [
+								{
+									"key": "customerId",
+									"value": "<long>",
+									"description": "(Required) "
+								},
+								{
+									"key": "isPaid",
+									"value": "<boolean>"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/loan/list?customerId=<long>&isPaid=<boolean>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"loan",
+										"list"
+									],
+									"query": [
+										{
+											"key": "customerId",
+											"value": "<long>"
+										},
+										{
+											"key": "isPaid",
+											"value": "<boolean>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": "<object>"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "installment",
+			"item": [
+				{
+					"name": "pay Loan Installments",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/installment/pay?loanId=<long>&paymentAmount=<number>",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"installment",
+								"pay"
+							],
+							"query": [
+								{
+									"key": "loanId",
+									"value": "<long>",
+									"description": "(Required) "
+								},
+								{
+									"key": "paymentAmount",
+									"value": "<number>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/installment/pay?loanId=<long>&paymentAmount=<number>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"installment",
+										"pay"
+									],
+									"query": [
+										{
+											"key": "loanId",
+											"value": "<long>"
+										},
+										{
+											"key": "paymentAmount",
+											"value": "<number>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": "<object>"
+						}
+					]
+				},
+				{
+					"name": "list Installments",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "*/*"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/installment/list?loanId=<long>",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"installment",
+								"list"
+							],
+							"query": [
+								{
+									"key": "loanId",
+									"value": "<long>",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "*/*"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/installment/list?loanId=<long>",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"installment",
+										"list"
+									],
+									"query": [
+										{
+											"key": "loanId",
+											"value": "<long>"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": "<object>"
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "cansu123",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "cansusahin",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8081",
+			"type": "string"
+		}
+	]
+}
