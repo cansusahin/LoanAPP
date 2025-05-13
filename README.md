@@ -6,76 +6,76 @@
 
 1. Core Framework
    
-- Spring Boot:
+- *Spring Boot:*
 
--- spring-boot-starter-parent (version 3.4.5)
+- spring-boot-starter-parent (version 3.4.5)
 
--- spring-boot (version 3.4.5)
+- spring-boot (version 3.4.5)
 
--- spring-boot-starter-web (for web development with Spring MVC)
+- spring-boot-starter-web (for web development with Spring MVC)
 
--- spring-boot-starter-data-jpa (for JPA support)
+- spring-boot-starter-data-jpa (for JPA support)
 
--- spring-boot-starter-validation (for validation support)
+- spring-boot-starter-validation (for validation support)
 
-3. Testing Frameworks
+2. Testing Frameworks
    
-JUnit 5:
+- **jUnit 5:*
 
-junit-bom (version 5.10.1)
+- junit-bom (version 5.10.1)
 
-spring-boot-starter-test (includes JUnit, Mockito, etc., for testing)
+- spring-boot-starter-test (includes JUnit, Mockito, etc., for testing)
 
-mockito-core (for mocking dependencies in tests)
+- mockito-core (for mocking dependencies in tests)
 
-spring-security-test (for security-related tests)
+- spring-security-test (for security-related tests)
 
-4. Database & Persistence
+3. Database & Persistence
    
-H2 Database:
+- *H2 Database:*
 
-com.h2database:h2 (version 2.3.232) – an in-memory database for testing or development purposes
+- com.h2database:h2 (version 2.3.232) – an in-memory database for testing or development purposes
 
-Spring Data JPA:
+- *Spring Data JPA:*
 
 spring-boot-starter-data-jpa (for interacting with databases using JPA)
 
-5. Security
+4. Security
    
-Spring Security:
+- *Spring Security:*
 
-spring-security-core (version 6.4.5)
+- spring-security-core (version 6.4.5)
 
-spring-security-web (version 6.4.5)
+- spring-security-web (version 6.4.5)
 
-spring-security-config (version 6.4.5) – configuration for Spring Security
+- spring-security-config (version 6.4.5) – configuration for Spring Security
 
-spring-security-test (version 6.4.5) – test support for Spring Security
+- spring-security-test (version 6.4.5) – test support for Spring Security
 
-6. JSON & Jackson
+5. JSON & Jackson
    
-Jackson:
+- *Jackson:*
 
-jackson-databind (version 2.19.0)
+- jackson-databind (version 2.19.0)
 
-jackson-core (version 2.19.0)
+- jackson-core (version 2.19.0)
 
-jackson-annotations (version 2.19.0)
+- jackson-annotations (version 2.19.0)
 
-7. OpenAPI Documentation
+6. OpenAPI Documentation
    
-SpringDoc OpenAPI:
+- *SpringDoc OpenAPI:*
 
-springdoc-openapi-starter-webmvc-ui (version 2.8.6) – for generating OpenAPI documentation for REST APIs with Swagger UI integration.
+- springdoc-openapi-starter-webmvc-ui (version 2.8.6) – for generating OpenAPI documentation for REST APIs with Swagger UI integration.
 
-8. Other Libraries
-Lombok:
+7. Other Libraries
+- *Lombok:*
 
-lombok (version 1.18.38) – used to reduce boilerplate code (e.g., getters, setters, constructors).
+- lombok (version 1.18.38) – used to reduce boilerplate code (e.g., getters, setters, constructors).
 
-Jakarta Servlet API:
+- *Jakarta Servlet API:*
 
-jakarta.servlet-api (version 6.1.0) – provides the Jakarta Servlet API, which is required for web applications.
+- jakarta.servlet-api (version 6.1.0) – provides the Jakarta Servlet API, which is required for web applications.
 
 
 ## **Summary of Tech Stack**
@@ -87,6 +87,8 @@ jakarta.servlet-api (version 6.1.0) – provides the Jakarta Servlet API, which 
 - Spring Security (for securing web applications)
 
 - H2 Database (in-memory database)
+  
+- Maven
 
 - JUnit 5 and Mockito (for testing)
 
