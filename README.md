@@ -20,7 +20,7 @@
 
 2. Testing Frameworks
    
-- **jUnit 5:*
+- *jUnit 5:*
 
 - junit-bom (version 5.10.1)
 
@@ -38,7 +38,7 @@
 
 - *Spring Data JPA:*
 
-spring-boot-starter-data-jpa (for interacting with databases using JPA)
+- spring-boot-starter-data-jpa (for interacting with databases using JPA)
 
 4. Security
    
