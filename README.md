@@ -80,19 +80,19 @@ jakarta.servlet-api (version 6.1.0) – provides the Jakarta Servlet API, which 
 
 ## **Summary of Tech Stack**
 
--Spring Boot (for building web applications)
+- Spring Boot (for building web applications)
 
--Spring Data JPA (for interacting with databases using JPA)
+- Spring Data JPA (for interacting with databases using JPA)
 
--Spring Security (for securing web applications)
+- Spring Security (for securing web applications)
 
--H2 Database (in-memory database)
+- H2 Database (in-memory database)
 
--JUnit 5 and Mockito (for testing)
+- JUnit 5 and Mockito (for testing)
 
--Lombok (to reduce boilerplate code)
+- Lombok (to reduce boilerplate code)
 
--SpringDoc OpenAPI (for API documentation with Swagger UI)
+- SpringDoc OpenAPI (for API documentation with Swagger UI)
 
 
 ## **Run The Application**
