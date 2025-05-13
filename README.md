@@ -63,7 +63,7 @@ jackson-core (version 2.19.0)
 jackson-annotations (version 2.19.0)
 
 7. OpenAPI Documentation
-8. 
+   
 SpringDoc OpenAPI:
 
 springdoc-openapi-starter-webmvc-ui (version 2.8.6) – for generating OpenAPI documentation for REST APIs with Swagger UI integration.
