@@ -111,9 +111,9 @@ server.port: 8081
 
 ## **Test users**
 
-1- username: admin pass: admin123
-2- username: cansusahin pass: cansu123 (customer id 1)
-3- username: ozgesahin pass: ozge123 (customer id 2)
+- username: admin pass: admin123
+-  username: cansusahin pass: cansu123 (customer id 1)
+-  username: ozgesahin pass: ozge123 (customer id 2)
 
 ## **H2 Database Configuration & Tables**
 
