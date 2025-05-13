@@ -5,52 +5,95 @@
 ## **Tech Stack**
 
 1. Core Framework
+   
 Spring Boot:
+
 spring-boot-starter-parent (version 3.4.5)
+
 spring-boot (version 3.4.5)
+
 spring-boot-starter-web (for web development with Spring MVC)
+
 spring-boot-starter-data-jpa (for JPA support)
+
 spring-boot-starter-validation (for validation support)
-2. Testing Frameworks
+
+3. Testing Frameworks
+   
 JUnit 5:
+
 junit-bom (version 5.10.1)
+
 spring-boot-starter-test (includes JUnit, Mockito, etc., for testing)
+
 mockito-core (for mocking dependencies in tests)
+
 spring-security-test (for security-related tests)
-3. Database & Persistence
+
+4. Database & Persistence
+   
 H2 Database:
+
 com.h2database:h2 (version 2.3.232) – an in-memory database for testing or development purposes
+
 Spring Data JPA:
+
 spring-boot-starter-data-jpa (for interacting with databases using JPA)
-4. Security
+
+5. Security
+   
 Spring Security:
+
 spring-security-core (version 6.4.5)
+
 spring-security-web (version 6.4.5)
+
 spring-security-config (version 6.4.5) – configuration for Spring Security
+
 spring-security-test (version 6.4.5) – test support for Spring Security
-5. JSON & Jackson
+
+6. JSON & Jackson
+   
 Jackson:
+
 jackson-databind (version 2.19.0)
+
 jackson-core (version 2.19.0)
+
 jackson-annotations (version 2.19.0)
-6. OpenAPI Documentation
+
+7. OpenAPI Documentation
+8. 
 SpringDoc OpenAPI:
+
 springdoc-openapi-starter-webmvc-ui (version 2.8.6) – for generating OpenAPI documentation for REST APIs with Swagger UI integration.
-7. Other Libraries
+
+8. Other Libraries
 Lombok:
+
 lombok (version 1.18.38) – used to reduce boilerplate code (e.g., getters, setters, constructors).
+
 Jakarta Servlet API:
+
 jakarta.servlet-api (version 6.1.0) – provides the Jakarta Servlet API, which is required for web applications.
+
 
 ## **Summary of Tech Stack**
 
 -Spring Boot (for building web applications)
+
 -Spring Data JPA (for interacting with databases using JPA)
+
 -Spring Security (for securing web applications)
+
 -H2 Database (in-memory database)
+
 -JUnit 5 and Mockito (for testing)
+
 -Lombok (to reduce boilerplate code)
+
 -SpringDoc OpenAPI (for API documentation with Swagger UI)
+
 
 ## **Run The Application**
 
